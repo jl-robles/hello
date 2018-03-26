@@ -8,6 +8,10 @@ public class HelloApplication {
 
 	public static void main(String[] args) {
 		System.out.println("***  Hello World App ***");
+		
+		boolean var = false;
+		System.out.println("Var value: "+var);		
+		
 		SpringApplication.run(HelloApplication.class, args);
 	}
 }
