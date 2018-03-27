@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloApplication {
 
 	public static void main(String[] args) {
-		System.out.println("***  Hello World App ***");
+		System.out.println("***  Hello World App 001***");
 		
 		boolean var = false;
 		System.out.println("Var value: "+var);		
