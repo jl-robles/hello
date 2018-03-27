@@ -1,5 +1,6 @@
 package com.santander.demo;
 
+import org.apache.logging.log4j.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -8,14 +9,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HelloApplication {
 	
-	private static final Logger log = LoggerFactory.getLogger(HelloApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(HelloApplication.class);
 
 
 	public static void main(String[] args) {
-		log.info("***  Hello World App 003***");
+		logger.info("***  Hello World App 003***");
 		
 		boolean var = true;
-		log.info("Var value: "+var);		
+		logger.info("Var value: "+var);	
 		
 		SpringApplication.run(HelloApplication.class, args);
 	}
